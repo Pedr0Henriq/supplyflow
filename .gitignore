@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+.env.*
+package-lock.json
+backend/coverage/
+backend/.eslintcache
+backend/.turbo/
+
+# Prisma
+backend/common/prisma/migrations/
+backend/src/generated/
