@@ -1,8 +1,9 @@
-node_modules/
-dist/
+node_modules
+dist
 .env
 .env.*
 package-lock.json
+pnpm-lock.yaml
 backend/coverage/
 backend/.eslintcache
 backend/.turbo/
@@ -10,3 +11,43 @@ backend/.turbo/
 # Prisma
 backend/common/prisma/migrations/
 backend/src/generated/
+
+.pnp
+.pnp.js
+
+coverage
+
+# next.js
+.next/
+out/
+next-env.d.ts
+
+# production
+build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+# turbo
+.turbo
+
+# ide
+.idea/
+.vscode/
+.zed
+
+# contentlayer
+.contentlayer/

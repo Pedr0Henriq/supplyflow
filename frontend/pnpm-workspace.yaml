@@ -1,0 +1,15 @@
+packages:
+  - apps/*
+  - packages/**
+  - tooling/*
+
+allowBuilds:
+  '@tailwindcss/oxide': true
+  core-js-pure: true
+  sharp: true
+  supabase: true
+  unrs-resolver: true
+
+onlyBuiltDependencies:
+  - '@tailwindcss/oxide'
+  - supabase
