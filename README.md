@@ -35,16 +35,15 @@ Certifique-se de ter instalado em sua máquina:
 Na raiz do projeto, certifique-se de configurar as variáveis de ambiente necessárias (.env.local no frontend e .env no backend):
 Snippet de código
 
-1.1 Frontend (.env.local)
-
-    NEXT_PUBLIC_API_URL="http://localhost:3001/api"
-    NEXT_PUBLIC_SUPABASE_URL="https://sua-url.supabase.co"
-    NEXT_PUBLIC_SUPABASE_ANON_KEY="sua-chave-anon"
-
-1.2 Backend (.env)
+    1.1 Frontend (.env.local)
     
-    PORT=3001
-
+        NEXT_PUBLIC_API_URL="http://localhost:3001/api"
+        NEXT_PUBLIC_SUPABASE_URL="https://sua-url.supabase.co"
+        NEXT_PUBLIC_SUPABASE_ANON_KEY="sua-chave-anon"
+    
+    1.2 Backend (.env)
+        
+        PORT=3001
 2. Iniciando o Backend
    
         Navegue até a pasta do backend: cd backend
